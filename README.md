@@ -14,6 +14,23 @@ This project focuses on fine-tuning Microsoft's [`phi-1.5`](https://huggingface.
 
 ---
 
+## 📁 Repository Contents
+
+This repository contains the following files:
+
+1. **`Fine-Tuning LLM Tasks.ipynb`**: Jupyter Notebook with the code and implementation for fine-tuning the language model (LLM) for code generation tasks. You can open this notebook to explore the step-by-step code and results.
+
+2. **`Fine_tune_LLM_for_Code_Generation.pdf`**: A detailed & complete documentation file that explains the methodology, techniques, and findings from the fine-tuning process. It provides in-depth insights into the code generation improvements achieved through fine-tuning.
+
+3. **`Datasets`**: The dataset folder includes the following JSON files:
+- **`trainDataset.json`**: The training dataset used for fine-tuning the model for first time.
+- **`SyntheticDataset.json`**: Includes the synthetic dataset generated using LLM for fine-tuning the model for second time.
+- **`CombinedDataset.json`**: Contains the combined dataset (train + synthetic) used for final fine-tuning.
+- **`testDataset.json`**: The test dataset used for evaluating the model's performance.
+
+
+---
+
 ## 📁 Dataset Overview
 
 - **Source:** [CodeParrot / APPS](https://huggingface.co/datasets/codeparrot/apps)
