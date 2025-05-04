@@ -8,7 +8,7 @@ This project focuses on fine-tuning Microsoft's [`phi-1.5`](https://huggingface.
 
 - **Goal:** Enhance Python code generation capabilities of a pretrained LLM using domain-specific fine-tuning.
 - **Base Model:** Microsoft phi-1.5 (a small yet effective LLM)
-- **Dataset:** CodeParrot / APPS (10,000+ Python problems with solutions)
+- **Dataset:** CodeParrot / APPS (10,000 Python problems with solutions)
 - **Techniques Used:** PEFT (Parameter-Efficient Fine-Tuning), LoRA (Low-Rank Adaptation)
 - **Environment:** Google Colab (GPU-enabled)
 
